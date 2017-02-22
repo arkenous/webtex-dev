@@ -1,10 +1,9 @@
 # webtex-dev
-<!--
-[![Build Status](https://travis-ci.org/trileg/docker-webtex.svg?branch=master)](https://travis-ci.org/trileg/docker-webtex)
-[![](https://images.microbadger.com/badges/image/trileg/docker-webtex.svg)](http://microbadger.com/images/trileg/docker-webtex "Get your own image badge on microbadger.com")
-[![](https://images.microbadger.com/badges/version/trileg/docker-webtex.svg)](http://microbadger.com/images/trileg/docker-webtex "Get your own version badge on microbadger.com")
+[![Build Status](https://travis-ci.org/trileg/webtex-dev.svg?branch=master)](https://travis-ci.org/trileg/webtex-dev)
+[![](https://images.microbadger.com/badges/image/trileg/webtex-dev.svg)](https://microbadger.com/images/trileg/webtex-dev "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/trileg/webtex-dev.svg)](https://microbadger.com/images/trileg/webtex-dev "Get your own version badge on microbadger.com")
 [![AMA](https://img.shields.io/badge/ask%20me-anything-0e7fc0.svg)](https://github.com/trileg/ama)
--->
+
 Developing WebTeX more easier.
 
 ## How to use?
