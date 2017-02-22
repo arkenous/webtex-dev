@@ -6,8 +6,28 @@
 
 Developing WebTeX more easier.
 
-## How to use?
+#### Before downloading this docker image
+
+1. Fork and clone WebTeX project, and change directory to WebTeX: `$ cd WebTeX`
+
+2. Install Ace.js and RedPen by running below commands
+
+   ````
+   $ wget https://github.com/ajaxorg/ace-builds/archive/v1.2.5.tar.gz -O /tmp/ace.tar.gz
+   $ mkdir /tmp/ace-builds
+   $ tar -xvf /tmp/ace.tar.gz -C /tmp/ace-builds --strip-components 1
+   $ mkdir -p WebTeX/static/ace-builds
+   $ mv /tmp/ace-builds/src-noconflict WebTeX/static/ace-builds/
+   $ rm -f /tmp/ace.tar.gz && rm -rf /tmp/ace-builds
+
+   $ wget https://github.com/redpen-cc/redpen/releases/download/redpen-1.7.6/redpen-1.7.6.tar.gz -O /tmp/redpen.tar.gz
+   $ mkdir redpen
+   $ tar -xvf /tmp/redpen.tar.gz -C redpen --strip-components 1
+   $ rm -f /tmp/redpen.tar.gz
+   ````
+
 #### Pull docker image from Docker Hub
+
 ```
 $ docker pull trileg/webtex-dev:latest
 ```
