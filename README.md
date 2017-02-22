@@ -34,7 +34,7 @@ $ docker pull trileg/webtex-dev:latest
 
 #### Run container from this pulled image
 ```
-$ docker run --rm -it -p 8080:8080 -v /your/developing/WebTeX/path/WebTeX/:/home/user/WebTeX --name container-webtex-dev webtex-dev /bin/bash -c "python /home/user/WebTeX/app.py"
+$ docker run --rm -it -p 8080:8080 -v /your/developing/WebTeX/path/WebTeX/:/home/user/WebTeX --name container-webtex-dev trileg/webtex-dev:latest /bin/bash -c "python /home/user/WebTeX/app.py"
 ```
 
 `-v /foo/bar/WebTeX/WebTeX/:/home/user/WebTeX` if your location of WebTeX app.py is `/foo/bar/WebTeX/WebTeX/app.py`
