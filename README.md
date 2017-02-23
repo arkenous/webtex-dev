@@ -58,3 +58,13 @@ Follow initial setup instruction. Input berow text for each input form.
 
 #### Re-login to WebTeX, create working directory, write LaTeX document, and compile
 
+-----
+
+#### Initialize WebTeX.ini and WebTeX.db
+
+```
+$ python WebTeX/init.py
+```
+
+
+
