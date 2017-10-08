@@ -1,6 +1,6 @@
-## -*- docker-image-name: "trileg/webtex-dev" -*-
-FROM trileg/arch-base:latest
-MAINTAINER Kensuke Kosaka <k@trileg.net>
+## -*- docker-image-name: "k3nsuk3/webtex-dev" -*-
+FROM k3nsuk3/arch-base:latest
+MAINTAINER Kensuke Kousaka <k@k3n.link>
 
 RUN pacman -Syu --noconfirm python jre8-openjdk-headless texlive-langcjk texlive-fontsextra poppler &> /dev/null
 User user

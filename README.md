@@ -1,8 +1,8 @@
 # webtex-dev
-[![Build Status](https://travis-ci.org/trileg/webtex-dev.svg?branch=master)](https://travis-ci.org/trileg/webtex-dev)
-[![](https://images.microbadger.com/badges/image/trileg/webtex-dev.svg)](https://microbadger.com/images/trileg/webtex-dev "Get your own image badge on microbadger.com")
-[![](https://images.microbadger.com/badges/version/trileg/webtex-dev.svg)](https://microbadger.com/images/trileg/webtex-dev "Get your own version badge on microbadger.com")
-[![AMA](https://img.shields.io/badge/ask%20me-anything-0e7fc0.svg)](https://github.com/trileg/ama)
+[![Build Status](https://travis-ci.org/k3nsuk3/webtex-dev.svg?branch=master)](https://travis-ci.org/k3nsuk3/webtex-dev)
+[![](https://images.microbadger.com/badges/image/k3nsuk3/webtex-dev.svg)](https://microbadger.com/images/k3nsuk3/webtex-dev "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/k3nsuk3/webtex-dev.svg)](https://microbadger.com/images/k3nsuk3/webtex-dev "Get your own version badge on microbadger.com")
+[![AMA](https://img.shields.io/badge/ask%20me-anything-0e7fc0.svg)](https://github.com/k3nsuk3/ama)
 
 Developing WebTeX more easier.
 
@@ -29,12 +29,12 @@ Developing WebTeX more easier.
 #### Pull docker image from Docker Hub
 
 ```
-$ docker pull trileg/webtex-dev:latest
+$ docker pull k3nsuk3/webtex-dev:latest
 ```
 
 #### Run container from this pulled image
 ```
-$ docker run --rm -it -p 8080:8080 -v /your/developing/WebTeX/path/WebTeX/:/home/user/WebTeX --name container-webtex-dev trileg/webtex-dev:latest /bin/bash -c "python /home/user/WebTeX/app.py"
+$ docker run --rm -it -p 8080:8080 -v /your/developing/WebTeX/path/WebTeX/:/home/user/WebTeX --name container-webtex-dev k3nsuk3/webtex-dev:latest /bin/bash -c "python /home/user/WebTeX/app.py"
 ```
 
 `-v /foo/bar/WebTeX/WebTeX/:/home/user/WebTeX` if your location of WebTeX app.py is `/foo/bar/WebTeX/WebTeX/app.py`
