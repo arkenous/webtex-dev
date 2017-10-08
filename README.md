@@ -8,7 +8,7 @@ Developing WebTeX more easier.
 
 #### Before downloading this docker image
 
-1. Fork and clone WebTeX project, and change directory to WebTeX: `$ cd WebTeX`
+1. Fork and clone WebTeX-flask project, rename directory from WebTeX-flask to WebTeX, and change current directory to WebTeX: `$ cd WebTeX`
 
 2. Install Ace.js and RedPen by running below commands
 
