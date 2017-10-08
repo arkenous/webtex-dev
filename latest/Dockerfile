@@ -2,7 +2,7 @@
 FROM k3nsuk3/arch-base:latest
 MAINTAINER Kensuke Kousaka <k@k3n.link>
 
-RUN pacman -Syu --noconfirm python jre8-openjdk-headless texlive-langcjk texlive-fontsextra poppler &> /dev/null
+RUN pacman -Syu --noconfirm python jre8-openjdk-headless texlive-langjapanese texlive-fontsextra poppler &> /dev/null
 User user
 
 WORKDIR /home/user/
